@@ -3,151 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Majesty</title>
-    <!--have colour more brown/yellow-->
-    <style>
-        
-        body{
-            
-            margin: auto;
-           
-            
-            
-            background-color:#FFFFFF;
-            
-            
-            
-            
-        }
-        .picture{
-            background-image: url(images/concert_2.jpg);
-            background-size:cover;
-            background-repeat:no-repeat;
-            background-position:center;
-        }
-        header{
-            
-            padding:30px;
-            text-align:center;
-            margin-bottom:0;
-            font-size:55px;
-            
-            
-        }
-        h1{
-            margin:0;
-            color:#000000;
-            /**change to a cool font**/
-        }
-        nav{
-            position:relative;
-            top:0px;
-            text-align:right;
-            
-        }
-        ul{
-            list-style-type: none;
-            margin:0;
-        }
-        li{
-            display:inline;
-            font-size:35px;
-
-        }
-       .portraits{
-        display: flex; 
-        flex-wrap:wrap;
-        
-       }
-       figure{
-        margin:auto;
-        text-align:center;
-       }
-     
-        
-        main{
-           
-            height:668px;
-            
-            
-        }
-        h2{
-            color:#ffffff;
-            text-align:center;
-            margin:0;
-            font-size:80px;
-            padding-top:70px;
-        }
-        h3{
-            font-size: 35px;
-            margin:15px;
-            text-align:center;
-        }
-       
-        footer{
-            clear:both;
-            text-align:center;
-        }
-       
-    </style>
+    <title>Waves in Glass</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="picture">
     
-        <nav>
+        <nav class="home">
             <ul>
-                <li><a href=index.html> Home</a></li>
-                <li><a href=""> Music</a></li>
-                <li><a href="">Tour</a></li>
-                <li><a href="">Merch</a></li>
+                <li><a class="nav" href=index.html> Home</a></li>
+                <li><a class="nav" href="Music.html"> Music</a></li>
+                <li><a class="nav" href="Tour.html">Tour</a></li>
+                <li><a class="nav" href="Merch.html">Merch</a></li>
             </ul>
         </nav>
-        <header>
-            <h1>Waves in Glass</h1>
+        <header class="home_page">
+            <h1 class="heading">Waves in Glass</h1>
         </header>
        
-        <main>
+        <section class="subheading">
             
             <h2>Live now on tour!</h2>
             
-        </main>
+        </section>
     </div>
-    <h3>Meet Waves in Glass</h3>
+    <main>
+    <h3 class="meeting">Meet Waves in Glass</h3>
         <div class=portraits>
         <figure>
             <img src="images/long_hair.jpg" alt="Alex"
                 width="150" height="258">
-            <figcaption>Alex Jones <br>Bassist<br><a href="">Instagram.com/<br>AlexJ/</a></figcaption>
+            <figcaption>Alex Jones <br>Bassist<br><a class="insta" href="">Instagram.com/<br>AlexJ/</a></figcaption>
         </figure>
        
         <figure>
             <img src="images/nice_beard.jpg" alt="Sam"
                 width="150" height="258">
-            <figcaption>Sam Thompson <br>Lead Vocalist<br><a href="">Instagram.com/<br>SamThomps/</a></figcaption>
+            <figcaption>Sam Thompson <br>Lead Vocalist<br><a class="insta" href="">Instagram.com/<br>SamThomps/</a></figcaption>
         </figure>
         
         <figure>
             <img src="images/woman.jpg" alt="Elise"
                 width="150" height="258">
-        <figcaption>Elise Thurnhill<br>Accompaniment<br>Guitarist/Vocalist<br><a href="">Instagram.com/<br>LiseHill/</a></figcaption>
+        <figcaption>Elise Thurnhill<br>Accompaniment<br>Guitarist/Vocalist<br><a class="insta" href="">Instagram.com/<br>LiseHill/</a></figcaption>
         </figure>
     
         <figure>
             <img src="images/balding.jpg" alt="John"
                 width="150" height="258">
-            <figcaption>John Singer<br>Drummer<br><a href="">Instagram.com/<br>JnSinger/</a></figcaption>
+            <figcaption>John Singer<br>Drummer<br><a class="insta" href="">Instagram.com/<br>JnSinger/</a></figcaption>
         </figure>
         
         <figure>
             <img src="images/bleach.jpg" alt="Cooper"
                 width="150" height="258">
-            <figcaption>Cooper Daly<br>Lead Guitarist<br><a href="">Instagram.com/<br>CoopsDal/</a></figcaption>
+            <figcaption>Cooper Daly<br>Lead Guitarist<br><a class="insta" href="">Instagram.com/<br>CoopsDal/</a></figcaption>
         </figure>
         </div>
-    
+    </main>
   
     <footer>
-        <p><i>Copyrighted Waves in Glass 2024</i></p>
+        <p><i>Copyright © 2024 Waves in Glass</i></p>
     </footer>
 </body>
 

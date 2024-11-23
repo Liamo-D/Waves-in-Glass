@@ -1,0 +1,157 @@
+body{
+    margin: auto;
+    background-color:#FFFFFF;
+}
+
+.home{
+    position:relative;
+    top:0px;
+    text-align:right;   
+}
+
+ul{
+    list-style-type: none;
+    margin:0;    
+}
+
+li{
+    display:inline;
+    font-size:25px; 
+    
+}
+a.nav:link,a.nav:visited{
+    text-decoration:none;
+    color:#000000;
+    background-color:#8000ffd7;
+    padding:0px 15px 0px 15px;
+    border-radius:3px;
+}
+
+a.nav:hover{
+    background-color:#FFFFFFd7;
+    color:#8000ff;
+}
+a.nav:active{
+    background-color:#8000ffd7;
+    color:#FFFFFF;
+}
+
+.picture{
+    background-image: url(images/concert_2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:#8000ff;
+}
+
+.home_page{  
+    padding:30px;
+    text-align:center;
+    margin-bottom:0;
+    font-size:55px;   
+}
+
+.heading{
+    margin:0;
+    color:#000000;    
+    /**change to a cool font**/
+}
+.subheading{  
+    height:668px;  
+}
+
+h2{
+    color:#ffffff;
+    text-align:center;
+    margin:0;
+    font-size:80px;
+    padding-top:70px;
+}
+
+.portraits{
+display: flex; 
+flex-wrap:wrap;
+}
+
+.meeting{
+    font-size: 35px;
+    margin:15px;
+    text-align:center;
+}
+
+figure{
+margin:auto;
+text-align:center;
+}
+
+footer{
+    clear:both;
+    text-align:center;
+    margin-top:200px;
+}
+
+.banner{
+    position:relative;
+    background-image: url(images/concert_2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:#8000ff;
+    color:#FFFFFF;
+    margin-bottom:100px;
+}
+.rest{
+    float:right;
+}
+.banner_name{
+    margin:auto;
+    padding:20px;
+    text-align:center;
+    font-size:65px;
+}
+.other_pages{
+    background-color:#e2e2e2;
+}
+
+.article_head{
+    font-size:35px;
+    margin:10px;
+}
+.album{
+    float:left;
+    background-color:white;
+    
+  
+border: 2px solid black;
+height: 250px;
+margin-bottom:100px;
+max-width:600px;
+
+}
+.album_art{
+    float:left;
+    border:2px solid black;
+    
+}
+.single{
+    
+    float:right;
+    background-color:white;
+     
+   
+    
+    border: 2px solid black;
+    height: 250px;
+    margin-bottom: 100px;
+   max-width:600px;
+}
+.single_art{
+    clear:both;
+    float:right;
+    
+    border:2px solid black;
+}
+
+p{
+    margin:16px 10px;
+}
