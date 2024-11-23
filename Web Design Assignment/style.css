@@ -1,6 +1,7 @@
 body{
     margin: auto;
     background-color:#FFFFFF;
+    font-family:Arial,Verdana,Helvetica;
 }
 
 .home{
@@ -16,9 +17,9 @@ ul{
 
 li{
     display:inline;
-    font-size:25px; 
-    
+    font-size:25px;    
 }
+
 a.nav:link,a.nav:visited{
     text-decoration:none;
     color:#000000;
@@ -26,7 +27,6 @@ a.nav:link,a.nav:visited{
     padding:0px 15px 0px 15px;
     border-radius:3px;
 }
-
 a.nav:hover{
     background-color:#FFFFFFd7;
     color:#8000ff;
@@ -53,9 +53,11 @@ a.nav:active{
 
 .heading{
     margin:0;
-    color:#000000;    
+    color:#000000;   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     /**change to a cool font**/
 }
+
 .subheading{  
     height:668px;  
 }
@@ -66,6 +68,7 @@ h2{
     margin:0;
     font-size:80px;
     padding-top:70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
 .portraits{
@@ -98,60 +101,111 @@ footer{
     background-position:center;
     background-color:#8000ff;
     color:#FFFFFF;
-    margin-bottom:100px;
+    margin-bottom:80px;
 }
+
 .rest{
     float:right;
 }
+
 .banner_name{
     margin:auto;
     padding:20px;
     text-align:center;
     font-size:65px;
 }
+
 .other_pages{
     background-color:#e2e2e2;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .article_head{
     font-size:35px;
     margin:10px;
 }
+
 .album{
     float:left;
-    background-color:white;
-    
-  
-border: 2px solid black;
-height: 250px;
-margin-bottom:100px;
-max-width:600px;
-
+    background-color:white; 
+    border: 2px solid black;
+    height: 250px;
+    margin-bottom:100px;
+    max-width:600px;
 }
+
 .album_art{
     float:left;
-    border:2px solid black;
-    
+    border:2px solid black;    
 }
-.single{
-    
+
+.single{   
     float:right;
-    background-color:white;
-     
-   
-    
+    background-color:white;    
     border: 2px solid black;
     height: 250px;
     margin-bottom: 100px;
-   max-width:600px;
+    max-width:600px;
 }
+
 .single_art{
     clear:both;
-    float:right;
-    
+    float:right;   
     border:2px solid black;
 }
 
 p{
     margin:16px 10px;
+}
+
+.table_head{
+    font-size:60px;
+    margin-left:20%;
+}
+table,th,td{
+    border:1px solid black;
+}
+table{
+    border-collapse:collapse;
+    width:80%;
+    max-width:1000px;
+    margin:auto;
+}
+th{
+    Padding:5px;
+    font-size:22px;
+    background-color:aliceblue;
+}
+td{
+    font-size:18px;
+    background-color:#FFFFFF;
+}
+
+.tour_dates a{
+    text-decoration:none;
+}
+.tour_dates a:hover{
+    color:#8000ff;
+}
+.tour_dates a:active{
+    color:#5203a1;
+}
+
+.merch{
+    margin-left:5%;
+    font-size:55px;
+}
+
+.merch_message{
+    font-size:20px;
+    margin-bottom:150px;
+}
+
+address{
+    margin-left:1%;
+    font-size:17px;
+}
+
+.bottom_merch{
+    margin-top:0;
 }
